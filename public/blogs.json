@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "question": "What is an access token and refresh token?",
+        "answer": "An access token is a temporary credential used by a client to access protected resources on behalf of a user or application. A refresh token is a long-lived token used to obtain a new access token when the current one expires. Access tokens should be stored securely in memory or short-lived storage mechanisms, such as in-memory cache. Refresh tokens should be stored securely in long-lived storage mechanisms, such as HTTP-only cookies or encrypted client-side storage."
+    },
+    {
+        "id": 2,
+        "question": "Compare SQL and NoSQL databases.",
+        "answer": "SQL databases use a relational model with predefined schemas and ensure data integrity through constraints. NoSQL databases provide flexible schema structures and handle unstructured data well. SQL databases excel in complex queries and maintaining relationships, while NoSQL databases offer scalability and high performance."
+    },
+    {
+        "id": 3,
+        "question": "What is Express.js and Nest.js?",
+        "answer": "Express.js is a popular Node.js web application framework known for its simplicity and flexibility. It provides a minimalist set of features to build web servers and APIs. Nest.js, on the other hand, is a progressive TypeScript-based framework for building scalable and maintainable server-side applications. It leverages concepts from Angular and provides a structured approach with modules, decorators, and dependency injection."
+    },
+    {
+        "id": 4,
+        "question": "What is MongoDB aggregate and how does it work?",
+        "answer": "MongoDB's aggregate is a powerful aggregation framework that allows you to perform complex data manipulations and analytics on collections of documents. It provides various pipeline stages, such as $match, $group, $sort, $project, etc., to perform transformations, filtering, grouping, and data aggregation operations."
+    }
+]
